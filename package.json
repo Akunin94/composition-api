@@ -2,13 +2,17 @@
   "name": "vue-composition-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://akunin94.github.io/composition-api/",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+		"deploy": "gh-pages -d dist",
+		"predeploy": "npm run build"
   },
   "dependencies": {
     "@vue/composition-api": "^1.4.6",
     "core-js": "^3.4.4",
+    "gh-pages": "^3.2.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {

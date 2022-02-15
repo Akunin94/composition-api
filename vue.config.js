@@ -1,0 +1,1 @@
+module.exports = { publicPath: 'https://akunin94.github.io/composition-api/' }
